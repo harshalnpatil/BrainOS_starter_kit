@@ -23,7 +23,7 @@ Anyone who wants an AI-assisted second brain: knowledge workers, PMs, researcher
 
 ## Domain packs
 
-The kit covers the OS itself. Domain packs are prebuilt domains for specific areas — install one by pointing a route at the pack's `AGENTS.md` instead of building a domain from scratch. First pack: [pm-job-search-templates](https://github.com/harshalnpatil/pm-job-search-templates) — a PM job-search career domain (dated company folders, interview prep, referral drafts, application diaries).
+The kit covers the OS itself. Domain packs are prebuilt domains for specific areas — install one by pointing a route at the pack's `AGENTS.md` instead of building a domain from scratch. First pack: [brainos-job-search](https://github.com/harshalnpatil/brainos-job-search) — a PM job-search career domain (dated company folders, interview prep, referral drafts, application diaries).
 
 ## Tool-agnostic and OS-agnostic
 

@@ -108,7 +108,7 @@ Small one-shot edits ("fix this typo") skip the loop entirely. No diary, no fold
 All of these are optional. Start minimal; add only when needed:
 
 - **More domain folders** — when a new life area accumulates enough material to deserve its own router.
-- **Domain packs** — prebuilt domains for specific areas, installed by adding a route to the pack's `AGENTS.md` instead of building a domain from scratch. Example: [pm-job-search-templates](https://github.com/harshalnpatil/pm-job-search-templates) for job-search prep.
+- **Domain packs** — prebuilt domains for specific areas, installed by adding a route to the pack's `AGENTS.md` instead of building a domain from scratch. Example: [brainos-job-search](https://github.com/harshalnpatil/brainos-job-search) for job-search prep.
 - **`skills/`** — reusable AI skills, each in its own folder with a `SKILL.md`. The kit ships the pattern, a `_template`, and two example skills (`mermaid`, `pdf-to-markdown`) — see [`skills/README.md`](skills/README.md). Add your own by copying the template into `skills/<skill-name>/` and adding a route row in your root `AGENTS.md`.
 - **`tools/`** — CLIs and helper scripts your agents can invoke. The kit ships the essentials: `new_task` scaffold flavors and `validate_brain.py`, the drift guard that catches convention drift (malformed task folders, missing diaries, broken links) before it spreads. See [`tools/README.md`](tools/README.md).
 - **`MCP_AGENTS.md`** — usage notes and gotchas for connected tools (Gmail, calendar, task boards, etc.), placed in the domain that uses them.
