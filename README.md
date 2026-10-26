@@ -1,5 +1,8 @@
 # BrainOS Starter Kit
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-3fb950)](LICENSE)
+[![Domain pack: brainos-job-search](https://img.shields.io/badge/domain_pack-brainos--job--search-a371f7)](https://github.com/harshalnpatil/brainos-job-search)
+
 A markdown-native personal workspace system that AI agents can navigate on their own. Your knowledge lives in plain markdown files; a root "router" file (`AGENTS.md`) tells any AI agent where to find each domain of your life; task folders carry diaries; a lessons ledger stores what you learn once so no agent repeats a mistake. No proprietary formats, no vendor lock-in — just folders and markdown.
 
 ## What's in here

@@ -17,3 +17,4 @@ A simple, Keep-a-Changelog-inspired record of meaningful changes to this workspa
 - skills/ layer: skill pattern README, copy-paste _template, and two example skills (mermaid verbatim; pdf-to-markdown rebuilt sanitized).
 - Domain packs section in README and start_here, pointing at the first pack (brainos-job-search, renamed from pm-job-search-templates).
 - MIT license (see LICENSE).
+- README badges: MIT license and first domain pack (brainos-job-search) cross-link.
