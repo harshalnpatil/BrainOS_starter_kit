@@ -39,6 +39,8 @@ When a request matches a topic below, go directly to the primary route:
 | home, household, maintenance, garden | `home/AGENTS.md` |
 | health, fitness, sleep, training | `health/AGENTS.md` |
 | learning, courses, reading, notes | `learning/AGENTS.md` |
+| diagram, mermaid, flowchart, sequence diagram | `skills/mermaid/SKILL.md` |
+| pdf, markdown conversion, document conversion, ocr | `skills/pdf-to-markdown/SKILL.md` |
 
 <!-- TEMPLATE: These are EXAMPLES. Replace them with your real domains and routes. Explicit routes always beat discovery. -->
 

@@ -14,4 +14,6 @@ A simple, Keep-a-Changelog-inspired record of meaningful changes to this workspa
 
 - Initial BrainOS Starter Kit: router template (AGENTS.md), onboarding guide (start_here.md), changelog conventions, and diaries folder.
 - tools/ layer: new_task scaffold (Python, PowerShell, Bash) and validate_brain drift checker; docs updated to reference them.
+- skills/ layer: skill pattern README, copy-paste _template, and two example skills (mermaid verbatim; pdf-to-markdown rebuilt sanitized).
+- Domain packs section in README and start_here, pointing at the first pack (pm-job-search-templates).
 - MIT license (see LICENSE).

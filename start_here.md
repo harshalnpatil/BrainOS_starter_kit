@@ -68,6 +68,10 @@ Copy `docs/changelog.md` from this kit and seed it with an initial entry. The `d
 
 Copy this kit's `tools/` folder into your brain root too. It gives you the `new_task` scaffold scripts and the `validate_brain.py` drift checker — both dependency-free. See [`tools/README.md`](tools/README.md). Everything works without them, but they make the conventions automatic instead of remembered.
 
+### Step 3c (optional): copy the skills
+
+Copy this kit's `skills/` folder into your brain root too: the skill pattern, a copy-paste `_template`, and two example skills (`mermaid`, `pdf-to-markdown`) — see [`skills/README.md`](skills/README.md). Everything works without any of them.
+
 ### Step 4: Smoke test
 
 Open the folder with your AI agent and ask:
@@ -104,7 +108,8 @@ Small one-shot edits ("fix this typo") skip the loop entirely. No diary, no fold
 All of these are optional. Start minimal; add only when needed:
 
 - **More domain folders** — when a new life area accumulates enough material to deserve its own router.
-- **`skills/`** — reusable AI skills, each in its own folder with a `SKILL.md`.
+- **Domain packs** — prebuilt domains for specific areas, installed by adding a route to the pack's `AGENTS.md` instead of building a domain from scratch. Example: [pm-job-search-templates](https://github.com/harshalnpatil/pm-job-search-templates) for job-search prep.
+- **`skills/`** — reusable AI skills, each in its own folder with a `SKILL.md`. The kit ships the pattern, a `_template`, and two example skills (`mermaid`, `pdf-to-markdown`) — see [`skills/README.md`](skills/README.md). Add your own by copying the template into `skills/<skill-name>/` and adding a route row in your root `AGENTS.md`.
 - **`tools/`** — CLIs and helper scripts your agents can invoke. The kit ships the essentials: `new_task` scaffold flavors and `validate_brain.py`, the drift guard that catches convention drift (malformed task folders, missing diaries, broken links) before it spreads. See [`tools/README.md`](tools/README.md).
 - **`MCP_AGENTS.md`** — usage notes and gotchas for connected tools (Gmail, calendar, task boards, etc.), placed in the domain that uses them.
 - **A domain-local ledger** — a domain's own `agent-memory/workspace-lessons.md` for lessons that only apply there.

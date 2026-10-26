@@ -9,6 +9,7 @@ A markdown-native personal workspace system that AI agents can navigate on their
 - `docs/changelog.md` — a simple dated changelog for structural changes to your workspace.
 - `docs/diaries/` — optional home for standalone/dated diaries (the modern pattern keeps diaries inside task folders).
 - `tools/` — dependency-free helper scripts: `new_task` scaffold flavors (Python, PowerShell, Bash) that create task folders + diary skeletons deterministically, and `validate_brain.py`, a drift checker for the whole structure. See [`tools/README.md`](tools/README.md).
+- `skills/` — reusable AI skills (each a folder with a `SKILL.md`): the pattern, a copy-paste `_template`, and two shipped examples (`mermaid`, `pdf-to-markdown`). See [`skills/README.md`](skills/README.md).
 
 ## Quick start
 
@@ -19,6 +20,10 @@ A markdown-native personal workspace system that AI agents can navigate on their
 ## Who this is for
 
 Anyone who wants an AI-assisted second brain: knowledge workers, PMs, researchers, hobbyists — anyone with a life that spans multiple domains (work, home, health, learning) and an AI assistant that does the legwork.
+
+## Domain packs
+
+The kit covers the OS itself. Domain packs are prebuilt domains for specific areas — install one by pointing a route at the pack's `AGENTS.md` instead of building a domain from scratch. First pack: [pm-job-search-templates](https://github.com/harshalnpatil/pm-job-search-templates) — a PM job-search career domain (dated company folders, interview prep, referral drafts, application diaries).
 
 ## Tool-agnostic and OS-agnostic
 
