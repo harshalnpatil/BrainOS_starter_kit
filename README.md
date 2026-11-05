@@ -9,15 +9,17 @@ A markdown-native personal workspace system that AI agents can navigate on their
 
 - `start_here.md` — the onboarding walkthrough: go from zero to a working BrainOS in 30-60 minutes.
 - `AGENTS.md` — the workspace router. It is both the router for this kit and the copy-paste template for your own.
+- `agent_harness.md` and `ASR_fixes.md` — portable agent-work and speech-recognition guidance. Copy them with the root router because it routes to both files.
 - `docs/changelog.md` — a simple dated changelog for structural changes to your workspace.
 - `docs/diaries/` — optional home for standalone/dated diaries (the modern pattern keeps diaries inside task folders).
+- `docs/workflows/` — optional patterns for draft tracking, email composition, and file triage. These are opt-in and include empty templates only.
 - `tools/` — dependency-free helper scripts: `new_task` scaffold flavors (Python, PowerShell, Bash) that create task folders + diary skeletons deterministically, and `validate_brain.py`, a drift checker for the whole structure. See [`tools/README.md`](tools/README.md).
 - `skills/` — reusable AI skills (each a folder with a `SKILL.md`): the pattern, a copy-paste `_template`, and two shipped examples (`mermaid`, `pdf-to-markdown`). See [`skills/README.md`](skills/README.md).
 
 ## Quick start
 
 1. Read [`start_here.md`](start_here.md).
-2. Copy the structure (root router + domain folders + `docs/`) into your own brain folder.
+2. Copy the root router, its 2 policy files, domain folders, and core `docs/` files into your own brain folder. Add only the optional workflow files you want; see [`docs/workflows/README.md`](docs/workflows/README.md).
 3. Point any AI agent at the folder and ask it to read `AGENTS.md` and report what it can see.
 
 ## Who this is for

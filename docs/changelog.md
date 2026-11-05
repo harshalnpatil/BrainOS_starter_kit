@@ -8,6 +8,17 @@ A simple, Keep-a-Changelog-inspired record of meaningful changes to this workspa
 - One line per **meaningful** change: a new domain, a structural change, a new skill, a convention change. Not every diary update.
 - Categories: `Added` / `Changed` / `Fixed` / `Removed`.
 
+## 2026-11-05
+
+### Added
+
+- Portable agent harness and ASR correction guidance, linked from the root router.
+- Optional patterns for exact draft snapshots, email composition checks, and collision-safe file triage. The draft ledger is empty.
+
+### Changed
+
+- Onboarding now copies the router's required policy files and explains which workflow documents are optional.
+
 ## 2026-10-26
 
 ### Added

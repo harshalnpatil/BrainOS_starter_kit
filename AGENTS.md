@@ -7,6 +7,11 @@ description: Root router for a BrainOS workspace — routes requests to domain f
 
 This root `AGENTS.md` is a ROUTER, not a domain specialist. Your job here is to determine which domain a request belongs to and route to that domain's `AGENTS.md`. Do not attempt domain work from the root: route first, then work inside the domain.
 
+## Cross-cutting preparation
+
+- Before technical planning or implementation, read [`agent_harness.md`](agent_harness.md) and apply its harness and ownership guidance.
+- Before routing or searching when a request may contain speech-recognition errors, consult [`ASR_fixes.md`](ASR_fixes.md). Apply only context-supported corrections.
+
 ## Persona inference
 
 Infer the likely primary user from, in order of reliability:

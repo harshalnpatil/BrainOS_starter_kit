@@ -20,9 +20,9 @@ The mental model:
 
 ## 2. The 30-minute setup
 
-### Step 1: Create the folder and the router
+### Step 1: Create the folder and copy the core router files
 
-Make a folder for your brain (anywhere: `Documents/brain`, a synced drive, whatever) and copy this kit's `AGENTS.md` into it as your root router. You will fill in the workspace layout and routes as your structure grows — the template comments tell you where.
+Make a folder for your brain and copy this kit's `AGENTS.md`, `agent_harness.md`, and `ASR_fixes.md` into it. The router links to both policy files, so keep all 3 together. Fill in the workspace layout and routes as your structure grows; the template comments tell you where.
 
 ### Step 2: Create 2-3 starter domain folders
 
@@ -72,6 +72,10 @@ Copy this kit's `tools/` folder into your brain root too. It gives you the `new_
 
 Copy this kit's `skills/` folder into your brain root too: the skill pattern, a copy-paste `_template`, and two example skills (`mermaid`, `pdf-to-markdown`) — see [`skills/README.md`](skills/README.md). Everything works without any of them.
 
+### Step 3d (optional): copy workflow patterns
+
+Copy [`docs/workflows/`](docs/workflows/README.md) for the full set of optional patterns. To install only one, copy its workflow file and any linked template. Draft tracking also needs the empty [`draft-ledger.md`](docs/workflows/draft-ledger.md). These documents do not enable background monitoring or grant permission to send or move anything.
+
 ### Step 4: Smoke test
 
 Open the folder with your AI agent and ask:
@@ -112,6 +116,7 @@ All of these are optional. Start minimal; add only when needed:
 - **`skills/`** — reusable AI skills, each in its own folder with a `SKILL.md`. The kit ships the pattern, a `_template`, and two example skills (`mermaid`, `pdf-to-markdown`) — see [`skills/README.md`](skills/README.md). Add your own by copying the template into `skills/<skill-name>/` and adding a route row in your root `AGENTS.md`.
 - **`tools/`** — CLIs and helper scripts your agents can invoke. The kit ships the essentials: `new_task` scaffold flavors and `validate_brain.py`, the drift guard that catches convention drift (malformed task folders, missing diaries, broken links) before it spreads. See [`tools/README.md`](tools/README.md).
 - **`MCP_AGENTS.md`** — usage notes and gotchas for connected tools (Gmail, calendar, task boards, etc.), placed in the domain that uses them.
+- **Workflow patterns** — optional checklists in `docs/workflows/` for repeatable writing or file tasks. Copy only the patterns you intend to use.
 - **A domain-local ledger** — a domain's own `agent-memory/workspace-lessons.md` for lessons that only apply there.
 
 Never grow for growth's sake: each addition should earn its place by preventing confusion.
